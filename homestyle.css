@@ -1,0 +1,42 @@
+nav{
+    text-align: center;
+    margin: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+section{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2{
+    color: darkblue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: lightblue;
+}
+
+hr{
+    border: 1px solid black;
+}

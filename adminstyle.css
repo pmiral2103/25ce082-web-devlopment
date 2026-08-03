@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+fieldset{
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid darkblue;
+}
+
+legend{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    color: #003366;
+}
+
+p{
+    color: #444;
+}
+
+ul{
+    color: #444;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    color: darkblue;
+    font-weight: bold;
+}
