@@ -1,0 +1,19 @@
+#tabletitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#break{
+    background-color: aqua;
+}
+
+.daytime,
+.daytime th{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(127, 157, 255);
+    background-color: beige;
+}
