@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After button click change color</title>
+
+    <style>
+        .property{
+            background-color: paleturquoise;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h3 id="first">First content</h3>
+        <h3 id="second">second content</h3>
+        <h3 id="third">third content</h3>
+        <button id="button">change css</button>
+    </main>
+
+    <script>
+        const first=document.querySelector("#first");
+
+        button.addEventListener("click",()=>{
+            first.classList.add("property");
+        });
+
+    </script>
+</body>
+</html>
