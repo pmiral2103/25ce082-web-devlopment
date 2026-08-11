@@ -1,0 +1,48 @@
+body{
+    padding: 100px;
+}
+
+
+section{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+h2{
+    color: darkblue;
+}
+
+p{
+    color: blue;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+ul{
+    color: blue;
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th{
+    background-color: #87CEEB;
+    color: #003366;
+     font-size: 20px;
+}
+
+td{
+    text-align: center;
+    color: blue;
+     font-size: 18px;
+}
+
+footer{
+    color: #003366;
+    font-weight: bold;
+}

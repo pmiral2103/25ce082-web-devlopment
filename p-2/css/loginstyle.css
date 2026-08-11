@@ -1,8 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 fieldset{
-    width: 350px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 2px solid darkblue;
+    width: 300px;
+   justify-content: center;
+   font-size: 30;
 }
 
 legend{
@@ -13,6 +19,9 @@ legend{
 
 label{
     font-weight: bold;
+    font-size:large;
+    color: black;
+
 }
 
 input,
@@ -24,9 +33,8 @@ select{
     box-sizing: border-box;
 }
 
-input[type="submit"],
-input[type="reset"]{
-    width: 48%;
+#submit,#reset{
     font-weight: bold;
-    cursor: pointer;
+    background-color: blue;
+    color: white;
 }

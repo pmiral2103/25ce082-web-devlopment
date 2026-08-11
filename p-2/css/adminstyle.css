@@ -1,0 +1,34 @@
+body{
+    padding: 150px;
+}
+
+fieldset{
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid darkblue;
+}
+
+legend{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p{
+    color: blue;
+    font-size: 18px;
+}
+
+ul{
+    color: blue;
+    font-size: 18px;
+}
+
+

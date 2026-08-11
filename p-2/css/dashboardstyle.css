@@ -1,0 +1,27 @@
+body{
+    padding: 120px;
+}
+
+.allbox{
+    display: grid;
+    gap: 20px;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+}
+.box{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+
+    
+    border-radius: 10px;
+    border: 2px solid #1e3a8a;
+    height: 150px;
+
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

@@ -1,18 +1,14 @@
-nav{
-    text-align: center;
-    margin: 15px;
-}
-
-nav a{
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
+body{
+    padding: 100px;
+    justify-content: center;
 }
 
 section{
     margin: 20px;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
+    margin-left: 40%;
+    width: 100%;
 }
 
 h2{
@@ -24,12 +20,20 @@ table{
     border-collapse: collapse;
 }
 
+#table{
+    margin-top: 10%;
+}
 table, th, td{
-    border: 1px solid black;
+    border: 2px solid black;
+}
+
+td{
+    color: darkmagenta;
 }
 
 th{
     background-color: lightblue;
+    color: darkblue;
 }
 
 th, td{
@@ -38,10 +42,6 @@ th, td{
 }
 
 ul{
-    margin-left: 20px;
-}
-
-ul a{
-    text-decoration: none;
     color: blue;
+    font-size: 18px;
 }

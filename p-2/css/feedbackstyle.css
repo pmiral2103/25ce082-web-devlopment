@@ -1,0 +1,38 @@
+body{
+    padding: 150px;
+}
+
+fieldset{
+    width: 400px;
+    margin: 30px;
+    border: 2px solid darkblue;
+}
+
+legend{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#submit{
+     font-weight: bold;
+    background-color: blue;
+    color: white;
+
+}

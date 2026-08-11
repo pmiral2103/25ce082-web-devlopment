@@ -1,0 +1,42 @@
+body{
+    padding: 100px;
+    justify-content: center;
+   
+}
+section{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+     margin-left: 30%;
+     width: 80%;
+}
+
+h2{
+    color: darkblue;
+}
+
+
+table, th, td{
+    border: 2px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    color: blue;
+}
+
+td{
+    font-size: 17px;
+}
+
+th{
+    background-color: lightblue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+    color: blue;
+}

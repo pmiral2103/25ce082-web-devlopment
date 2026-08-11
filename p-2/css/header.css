@@ -1,0 +1,23 @@
+#header{
+    color: white;
+    background-color:  #1E3A8A;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-size: 200%;
+}
+
+#header img{
+    width:60px;
+    height:60px;
+    top:10px;
+    left:10px;
+    position: absolute;
+}
+#name
+{
+    font-size: large;
+}
