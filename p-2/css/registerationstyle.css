@@ -1,12 +1,16 @@
 body{
-    padding-top: 100px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
 }
 
 fieldset{
-    width: 350px;
-    margin: 30px auto;
+    width: 380px;
+    margin: 20px auto;
     padding: 20px;
     border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 8px;
 }
 
 legend{
@@ -17,7 +21,7 @@ legend{
 
 label{
     font-weight: bold;
-    font-size: large;
+    font-size: 15px;
     color: black;
 }
 
@@ -27,10 +31,41 @@ select{
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #1E3A8A;
+    border-radius: 4px;
 }
 
 #submit,#reset{
     font-weight: bold;
     background-color: blue;
     color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+}
+
+#submit:hover, #reset:hover {
+    background-color: darkblue;
+}
+
+.gender input[type="radio"] {
+    width: auto;
+}
+
+.gender label {
+    display: inline;
+}
+
+.gender input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+span[id$="error"] {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
 }

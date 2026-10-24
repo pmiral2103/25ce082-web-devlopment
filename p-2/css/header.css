@@ -3,20 +3,41 @@
     background-color:  #1E3A8A;
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     top: 0;
     left: 0;
     position: fixed;
-    font-size: 200%;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 999;
 }
 
 #header img{
-    width:60px;
-    height:60px;
-    top:10px;
-    left:10px;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 15px;
     position: absolute;
 }
+
+#header nav{
+    background-color: #1E3A8A;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+#header nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+#header nav a:hover{
+    text-decoration: underline;
+}
+
 #name
 {
     font-size: large;

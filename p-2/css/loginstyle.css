@@ -2,13 +2,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 fieldset{
-    width: 300px;
-   justify-content: center;
-   font-size: 30;
+    width: 320px;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 20px;
 }
 
 legend{
@@ -19,9 +26,8 @@ legend{
 
 label{
     font-weight: bold;
-    font-size:large;
+    font-size: 15px;
     color: black;
-
 }
 
 input,
@@ -31,10 +37,18 @@ select{
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    border: 1px solid #1E3A8A;
+    border-radius: 4px;
 }
 
 #submit,#reset{
     font-weight: bold;
     background-color: blue;
     color: white;
+    cursor: pointer;
+    width: 48%;
+}
+
+#submit:hover, #reset:hover {
+    background-color: darkblue;
 }

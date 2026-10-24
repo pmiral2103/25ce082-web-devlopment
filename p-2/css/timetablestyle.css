@@ -1,14 +1,16 @@
 body{
     margin: 0;
+    padding-top: 140px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
-
 #title{
-    font-size: 35px;
+    font-size: 28px;
     font-weight: bold;
     color: darkblue;
     text-align: center;
@@ -17,17 +19,30 @@ body{
 
 #break{
     background-color: aqua;
+    font-weight: bold;
 }
 
 .daytime,
 .daytime th{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
-    color: rgb(127, 157, 255);
+    color: #1E3A8A;
     background-color: beige;
 }
 
 .tablediv{
     display: flex;
-justify-content: center;
+    justify-content: center;
+    width: 90%;
+    overflow-x: auto;
+}
+
+#table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#table td, #table th {
+    padding: 8px;
+    border: 1px solid #1E3A8A;
 }

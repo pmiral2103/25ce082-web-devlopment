@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "How can I register on StudentHub?",
+    "answer": "Go to the Registration page from the menu, fill in your personal and academic details, and click Submit."
+  },
+  {
+    "id": 2,
+    "question": "How do I log in to my account?",
+    "answer": "Click on Login in the menu, enter your college email ID and password, select your role, and click Login."
+  },
+  {
+    "id": 3,
+    "question": "How can I check the class timetable?",
+    "answer": "Navigate to the Dashboard and click on the TimeTable card to view your weekly lecture schedule."
+  },
+  {
+    "id": 4,
+    "question": "Where can I view upcoming college events?",
+    "answer": "Open the Events page from Dashboard or Menu to see upcoming workshops, technical events, and sports."
+  },
+  {
+    "id": 5,
+    "question": "How do I submit feedback about a course or facility?",
+    "answer": "Visit the Feedback page, enter your name, email, and detailed remarks, then click Submit."
+  },
+  {
+    "id": 6,
+    "question": "What should I do if I forget my password?",
+    "answer": "Contact the college IT cell or StudentHub administrator with your student ID card to reset your password."
+  },
+  {
+    "id": 7,
+    "question": "Is attendance compulsory for all events?",
+    "answer": "Attendance is mandatory for academic workshops and department seminars. Cultural fests are open."
+  },
+  {
+    "id": 8,
+    "question": "How do I register for coding competitions or hackathons?",
+    "answer": "On the Events page, click on the specific event details or contact the faculty coordinator listed for registration."
+  },
+  {
+    "id": 9,
+    "question": "Can I update my profile details after registration?",
+    "answer": "Yes, you can edit basic details like mobile number and address from the Profile or Admin section."
+  },
+  {
+    "id": 10,
+    "question": "What are the college library timings?",
+    "answer": "The central library is open Monday to Saturday from 8:30 AM to 7:00 PM."
+  },
+  {
+    "id": 11,
+    "question": "Where can I find mid-semester exam seating arrangements?",
+    "answer": "Seating arrangements are posted on the Notice Board and published under Announcements on the Home page."
+  },
+  {
+    "id": 12,
+    "question": "How do I join student clubs and NSS?",
+    "answer": "Visit the Student Activity Center or register during the Club Orientation event held at the start of the semester."
+  },
+  {
+    "id": 13,
+    "question": "How can I pay my semester fees online?",
+    "answer": "Use the official university fee portal link provided in the StudentHub dashboard under Academic Services."
+  },
+  {
+    "id": 14,
+    "question": "Who can I contact for technical issues on the portal?",
+    "answer": "You can reach out to the Web Development Cell or email support at studenthub@charusat.edu.in."
+  },
+  {
+    "id": 15,
+    "question": "How do I download my academic transcript or grade sheet?",
+    "answer": "Grade sheets can be downloaded from the university examination portal once end-semester results are declared."
+  }
+]

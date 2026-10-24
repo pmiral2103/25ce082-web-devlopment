@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudentHub - Feedback</title> <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\style.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\feedbackstyle.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\footer.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\header.css">
-
+    <title>StudentHub - Feedback</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/feedbackstyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
 
-<header id="header">
-        <img src="C:\Users\01\Desktop\82-web dev\p-2\p-2\image\charusatlogo.png" alt="charusat logo">
-        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</header>
-    
-</header>
+    <header id="header">
+        <img src="../image/charusatlogo.png" alt="charusat logo">
+        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY
+        <nav id="navMenu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="registeration.html">Register</a>   
+            <a href="login.html">Login</a>      
+            <a href="dashboard.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
 
-<main>
+    <main>
+        <fieldset>
+            <legend>Feedback Form</legend>
 
-<fieldset>
-    <legend>Feedback Form</legend>
+            <form action="home.html" method="get">
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </p>
 
-    <form action="/feedback" method="post">
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </p>
 
-        <p>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-        </p>
+                <p>
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="5" cols="35" placeholder="Write your feedback here" required></textarea>
+                </p>
 
-        <p>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </p>
+                <p>
+                    <input type="submit" value="Submit Feedback" id="submit">
+                </p>
+            </form>
+        </fieldset>
+    </main>
 
-        <p>
-            <label for="feedback">Feedback:</label><br>
-            <textarea id="feedback" name="feedback" rows="5" cols="35" placeholder="Write your feedback here" required></textarea>
-        </p>
-
-        <p>
-            <input type="submit" value="Submit" id="submit">
-        </p>
-
-    </form>
-
-</fieldset>
-
-</main>
-
-<footer  class="footer">
-MIRAL PATEL||25CE082||STUDENT HUB PORTAL
-</footer>
+    <footer class="footer">
+        MIRAL PATEL||25CE082||STUDENT HUB PORTAL
+    </footer>
 
 </body>
 </html>

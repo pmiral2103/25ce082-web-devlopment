@@ -1,42 +1,122 @@
-body{
-    padding: 100px;
-    justify-content: center;
-   
-}
-section{
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid black;
-     margin-left: 30%;
-     width: 80%;
-}
-
-h2{
-    color: darkblue;
-}
-
-
-table, th, td{
-    border: 2px solid black;
-}
-
-th, td{
-    padding: 10px;
-    text-align: left;
-    color: blue;
-}
-
-td{
-    font-size: 17px;
-}
-
-th{
-    background-color: lightblue;
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-p{
+header nav{
+    background-color: #1E3A8A;
     font-size: 18px;
-    color: blue;
+    margin-top: 10px;
+}
+
+header nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+.faq-main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.faq-section {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 0;
+}
+
+p {
+    color: #003366;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.search-box-container {
+    margin: 15px 0 20px 0;
+}
+
+#faqSearch {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #1E3A8A;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.loading-text {
+    color: darkblue;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-card {
+    border: 1px solid #1E3A8A;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f7faff;
+    transition: all 0.3s ease;
+}
+
+.faq-card.active {
+    border: 2px solid darkblue;
+}
+
+.faq-question {
+    background-color: #e8f0fe;
+    color: #1E3A8A;
+    padding: 14px 18px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    background-color: #d2e3fc;
+}
+
+.faq-question .icon {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E3A8A;
+}
+
+.faq-answer {
+    padding: 15px 18px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    border-top: 1px solid #cce0ff;
+}
+
+.help-section {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 20px;
 }

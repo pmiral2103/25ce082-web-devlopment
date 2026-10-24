@@ -1,27 +1,40 @@
 body{
-    padding: 120px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 .allbox{
     display: grid;
-    gap: 20px;
-    width: 80%;
+    gap: 25px;
+    width: 70%;
     grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
 }
+
 .box{
     background-color: white;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
-
-    
     border-radius: 10px;
     border: 2px solid #1e3a8a;
-    height: 150px;
-
+    height: 120px;
     font-weight: bold;
-    color: blue;
-    font-size: large;
+    color: #1e3a8a;
+    font-size: 22px;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.box:hover {
+    background-color: #e8f0fe;
+    transform: translateY(-3px);
 }

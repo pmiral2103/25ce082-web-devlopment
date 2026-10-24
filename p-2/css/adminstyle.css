@@ -1,12 +1,42 @@
-body{
-    padding: 150px;
+header nav{
+    background-color: #1E3A8A;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-fieldset{
-    width: 400px;
-    margin: 30px;
+header nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+.admin-main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.admin-info-box{
+    width: 100%;
+    box-sizing: border-box;
     padding: 20px;
     border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0;
 }
 
 legend{
@@ -17,18 +47,82 @@ legend{
 
 h3{
     color: darkblue;
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5px;
 }
 
 p{
-    color: blue;
-    font-size: 18px;
+    color: #003366;
+    font-size: 16px;
 }
 
 ul{
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
+.students-section {
+    border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
 
+.admin-controls {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+#studentSearch {
+    flex: 2;
+    padding: 8px 12px;
+    border: 2px solid #1E3A8A;
+    border-radius: 4px;
+    font-size: 15px;
+    min-width: 220px;
+}
+
+#deptFilter {
+    flex: 1;
+    padding: 8px 10px;
+    border: 2px solid #1E3A8A;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+    color: #1E3A8A;
+    font-weight: bold;
+}
+
+.loading-msg {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.students-table, .students-table th, .students-table td {
+    border: 1px solid #1E3A8A;
+}
+
+.students-table th {
+    background-color: #87CEEB;
+    color: #003366;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.students-table td {
+    padding: 9px;
+    text-align: center;
+    color: #003366;
+    font-size: 15px;
+}

@@ -4,47 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudentHub - Home</title>
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\style.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\homestyle.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\footer.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/homestyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+
+    <script src="../javascript/home.js" defer></script>
 </head>
 
 <body>
 
-<header id="header">
-        <img src="C:\Users\01\Desktop\82-web dev\p-2\p-2\image\charusatlogo.png" alt="charusat logo">
+    <header id="header">
+        <img src="../image/charusatlogo.png" alt="charusat logo">
         CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY
-         <nav>
-        <a href="about.html">About</a>
-        <a href="registeration.html">Register</a>   
-        <a href="login.html">Login</a>      
-        <a href="admin.html">Admin</a>
-    </nav>
+        
+        <div class="header-buttons">
+            <button id="themeToggleBtn" onclick="toggleTheme()" class="btn-small">🌙 Dark Mode</button>
+            <button class="hamburger-btn" onclick="toggleMenu()">☰ Menu</button>
+        </div>
+
+        <nav id="navMenu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="registeration.html">Register</a>   
+            <a href="login.html">Login</a>      
+            <a href="dashboard.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="admin.html">Admin</a>
+        </nav>
     </header>
-    
+
+    <div id="notificationBanner" class="notification-banner">
+        <span>📢 <b>Announcement:</b> Mid-Semester examination schedule for 2nd year CE/IT announced! Check notice board.</span>
+        <button onclick="closeNotification()" class="close-banner-btn">&times;</button>
+    </div>
 
     <main class="main">
-        
-   <div class="img">
-     <img src="C:\Users\01\Desktop\82-web dev\p-2\p-2\image\charusatphoto.png" alt="charusatphoto">
-   </div>
+        <div class="slider-box">
+            <div class="slide">
+                <img src="../image/charusatphoto.png" alt="charusat campus photo">
+                <p class="slide-caption">CHARUSAT Campus - Academic Building</p>
+            </div>
+            <div class="slide">
+                <div class="text-slide">
+                    <h3>🎓 StudentHub Portal 2026</h3>
+                    <p>Access Timetable, Events, Study Resources, and Announcements in one place.</p>
+                </div>
+                <p class="slide-caption">Academic Resources & Updates</p>
+            </div>
+            <div class="slide">
+                <div class="text-slide">
+                    <h3>🏆 Upcoming Tech Events & Hackathons</h3>
+                    <p>Participate in Cognizance and Coding Competitions to enhance your skills.</p>
+                </div>
+                <p class="slide-caption">Student Activities</p>
+            </div>
 
+            <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
 
-    <div class="info">
+            <div class="dots-container">
+                <span class="dot" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+                <span class="dot" onclick="setSlide(2)"></span>
+            </div>
+        </div>
 
-     <h2>Welcome to StudentHub</h2>
-<p>StudentHub is an online platform for students to manage academic activities,
-participate in events, access study resources, and stay updated with college
-announcements maken by Miral Patel-25CE082.</p>
+        <div class="info">
+            <h2>Welcome to StudentHub</h2>
+            <p>StudentHub is an online platform for students to manage academic activities,
+            participate in events, access study resources, and stay updated with college
+            announcements made by Miral Patel-25CE082.</p>
 
+            <button onclick="Modalpopup()" class="announcement-btn">View Announcement</button>
+        </div>
+    </main>
 
-</div>
-</main>
+    <div id="announcementModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h3>📢 Campus Event Announcement</h3>
+            <hr>
+            <p><b>Event:</b> Engineer's Day Celebration & Project Showcase at CSPIT</p>
+            <p><b>Date:</b> 15th September 2026 | <b>Venue:</b> Central Lawn</p>
+            <p>All students are requested to register their innovative projects before 10th September.</p>
+            <button onclick="closeModal()" class="modal-close-btn">Close</button>
+        </div>
+    </div>
 
-<footer  class="footer">
-MIRAL PATEL||25CE082||STUDENT HUB PORTAL
-</footer>
+    <footer class="footer">
+        MIRAL PATEL||25CE082||STUDENT HUB PORTAL
+    </footer>
 
 </body>
 </html>

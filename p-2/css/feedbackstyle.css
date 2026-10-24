@@ -1,11 +1,21 @@
 body{
-    padding: 150px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 fieldset{
-    width: 400px;
-    margin: 30px;
+    width: 380px;
+    margin: 0 auto;
     border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
 }
 
 legend{
@@ -16,9 +26,8 @@ legend{
 
 label{
     font-weight: bold;
-    color: blue;
-    font-size: large;
-    font-weight: bold;
+    color: #1E3A8A;
+    font-size: 15px;
 }
 
 input,
@@ -28,11 +37,20 @@ textarea{
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    border: 1px solid #1E3A8A;
+    border-radius: 4px;
 }
 
 #submit{
-     font-weight: bold;
+    font-weight: bold;
     background-color: blue;
     color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
 
+#submit:hover {
+    background-color: darkblue;
 }

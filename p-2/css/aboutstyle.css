@@ -1,27 +1,37 @@
 body{
-    padding: 100px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    margin: 0;
 }
 
+main {
+    width: 75%;
+    margin: 0 auto;
+}
 
 section{
-    margin: 20px;
-    padding: 15px;
-    border: 2px solid blue;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 8px;
 }
 
 h2{
     color: darkblue;
+    margin-top: 0;
 }
 
 p{
-    color: blue;
+    color: #003366;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul{
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 table{
@@ -29,20 +39,20 @@ table{
     border-collapse: collapse;
 }
 
+table, th, td{
+    border: 1px solid #1E3A8A;
+}
 
 th{
     background-color: #87CEEB;
     color: #003366;
-     font-size: 20px;
+    font-size: 17px;
+    padding: 10px;
 }
 
 td{
     text-align: center;
-    color: blue;
-     font-size: 18px;
-}
-
-footer{
     color: #003366;
-    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
 }

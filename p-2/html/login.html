@@ -3,54 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudentHub - Login</title> <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\style.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\loginstyle.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\footer.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\header.css">
+    <title>StudentHub - Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/loginstyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 
 <body>
 
-<header id="header">
-        <img src="C:\Users\01\Desktop\82-web dev\p-2\p-2\image\charusatlogo.png" alt="charusat logo">
-        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</header>
-    
-</header>    
+    <header id="header">
+        <img src="../image/charusatlogo.png" alt="charusat logo">
+        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY
+        <nav id="navMenu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="registeration.html">Register</a>   
+            <a href="login.html">Login</a>      
+            <a href="dashboard.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
+
+    <main>
         <fieldset>
-    <legend>login form</legend>
-    <form action="dashboard.html" method="post">
+            <legend>login form</legend>
+            <form action="dashboard.html" method="get">
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="enter your email" pattern="^[0-9]{2}ce[0-9]{3}@charusat\.edu\.in$" required>
+                </p>
 
-         <p>
-            <label for="email">E-mail:</label><br>
-            <input type="email" id="email" name="email" placeholder="enter your email" required>
-        </p>
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="enter your password" required>
+                </p>
 
-         <p>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" placeholder="enter your password" required>
-        </p>
+                <p>
+                    <label for="role">Role:</label><br>
+                    <select>
+                        <option value="faculty">faculty</option>
+                        <option value="admin">admin</option>
+                        <option value="student">student</option> 
+                    </select> 
+                </p>
 
-        <p>
-             <label for="role">Role:</label><br>
-           <select>
-            <option value="faculty">faculty</option>
-            <option value="admin">admin</option>
-            <option value="student">student</option> 
-            </select> 
-        </p>
+                <p>
+                    <input type="submit" id="submit" value="Login">
+                    <input type="reset" id="reset">
+                </p>
+            </form>
+        </fieldset>
+    </main>
 
-        <p >
-            <input type="submit" id="submit">
-            <input type="reset" id="reset">
-        </p>
-        
-</form>
-</fieldset>
-
-<footer  class="footer">
-MIRAL PATEL||25CE082||STUDENT HUB PORTAL
-</footer>
-
+    <footer class="footer">
+        MIRAL PATEL||25CE082||STUDENT HUB PORTAL
+    </footer>
 
 </body>
 </html>

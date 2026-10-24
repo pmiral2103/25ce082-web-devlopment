@@ -3,83 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudentHub - FAQ</title> <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\style.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\FAQstyle.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\footer.css">
-    <link rel="stylesheet" href="C:\Users\01\Desktop\82-web dev\p-2\p-2\css\header.css">
+    <title>StudentHub - FAQ</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/FAQstyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+
+    <script src="../javascript/FAQ.js" defer></script>
 </head>
 
 <body>
 
-<header id="header">
-        <img src="C:\Users\01\Desktop\82-web dev\p-2\p-2\image\charusatlogo.png" alt="charusat logo">
-        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</header>
-    
-</header>
-<main>
+    <header id="header">
+        <img src="../image/charusatlogo.png" alt="charusat logo">
+        CHARUSAT<br>CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY
+        <nav id="navMenu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="registeration.html">Register</a>   
+            <a href="login.html">Login</a>      
+            <a href="dashboard.html">Dashboard</a>
+            <a href="event.html">Events</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
 
-<section>
+    <main class="faq-main">
+        <section class="faq-section">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <p>Click on any question to view its answer. Use the search box to find specific queries quickly.</p>
 
+            <div class="search-box-container">
+                <input type="text" id="faqSearch" placeholder="🔍 Search questions or keywords...">
+            </div>
 
-<table border="1" cellpadding="10">
+            <div id="loading" class="loading-text">Loading FAQs from server...</div>
 
-<tr align="center">
-    <th>Question</th>
-    <th>Answer</th>
-</tr>
+            <div id="faqContainer" class="faq-container"></div>
+        </section>
 
-<tr>
-    <td>1. How can I register on StudentHub?</td>
-    <td>Open the Registration page, fill in your details, and click the Register button.</td>
-</tr>
+        <section class="help-section">
+            <h2>Need More Help?</h2>
+            <p>If your question is not listed above, contact us through email: <b>studenthub@charusat.edu.in</b> or call <b>+91 9876543210</b>.</p>
+        </section>
+    </main>
 
-<tr>
-    <td>2. How do I log in?</td>
-    <td>Enter your registered email, password, and select your role, then click Login.</td>
-</tr>
-
-<tr>
-    <td>3. Can I update my profile?</td>
-    <td>Yes. After logging in, open the Profile page to edit your information.</td>
-</tr>
-
-<tr>
-    <td>4. How can I view upcoming events?</td>
-    <td>Go to the Events page to see all upcoming college events.</td>
-</tr>
-
-<tr>
-    <td>5. I forgot my password. What should I do?</td>
-    <td>Click the "Forgot Password" link on the Login page and follow the instructions.</td>
-</tr>
-
-<tr>
-    <td>6. How can I contact StudentHub?</td>
-    <td>Visit the Contact page for email, phone number, and office details.</td>
-</tr>
-
-</table>
-
-</section>
-
-<section>
-
-<h2>Need More Help?</h2>
-
-<p>
-If your question is not listed above,<br>
-Contact us on email otherwise thorugh Contact Number
-</p>
-
-</section>
-
-</main>
-
-<hr>
-
-<footer  class="footer">
-MIRAL PATEL||25CE082||STUDENT HUB PORTAL
-</footer>
+    <footer class="footer">
+        MIRAL PATEL||25CE082||STUDENT HUB PORTAL
+    </footer>
 
 </body>
 </html>
